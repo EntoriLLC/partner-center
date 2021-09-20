@@ -5,13 +5,13 @@
 
 # constants
 $ErrorActionPreference = "Stop"
-$displayName = "Entori_App"
+$displayName = "Entori App (UAT)"
 $keyDescription = "Entori App Key"
 $keyEndDate = "1/1/2099"
 $azureADModule = "AzureAD"
 $version = "Entori_App_Installer_1.0.2"
 $unexpectedError = "An unexpected error has occurred. Please review the following error message and try again.`n$($version)`n"
-$callbackUrls = "https://app.entori.com/api/partner-center/callback"
+$callbackUrls = "https://uat.app.entori.com/api/partner-center/callback"
 
 Write-Host -ForegroundColor Yellow "Beginning $($version)"
 
